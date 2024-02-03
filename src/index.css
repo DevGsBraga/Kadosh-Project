@@ -1,0 +1,23 @@
+
+
+:root {
+  --primary-color: #fff112;
+  --secundary-color:#2A55A3;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+

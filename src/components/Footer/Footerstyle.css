@@ -1,0 +1,116 @@
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+/* CONTAINER FOOTER PRINCIPAL */
+.footer-description {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 348px;
+    background: var(--primary-color);
+}
+
+.footer-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-navBar {
+    display: flex;
+}
+
+.footer-navBar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+/* IFRAME */
+
+.container-iframe {
+    width: 400px;
+    height: 250px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+/* CONTAINER DA LOGO */
+.footer-redes-sociais {
+    width:100%;
+    height: 164px;
+
+    border-top-width: 2px solid black;
+}
+.footer-img-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.icons-redes-socias {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-img-footer {
+    width: 15rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .logo-img-footer {
+        width: 10rem;
+    }
+    .footer-description {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container-iframe {
+        width: 350px;
+        height: 200px;
+        border: none;
+    }
+}
+
+@media (max-width: 415px) {
+    .logo-img-footer {
+        width: 10rem;
+    }
+    .footer-description {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo-img-footer {
+        width: 9rem;
+    }
+    .footer-description {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container-iframe {
+        width: 300px;
+        height: 150px;
+        border: none;
+    }
+}

@@ -1,0 +1,147 @@
+.container__navBar {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--primary-color);
+    z-index: 1;
+}
+
+/* ESTILIZAÇÃO CONTATOS */
+
+.container-contacts {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3rem;
+    background: var(--secundary-color);
+}
+
+.contacts-list {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+
+
+
+
+/* ESTILIZAÇÃO DA IMAGEM DA BARRA DE NAVEGAÇÃO */
+.navBar-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-logo {
+    width: 10rem;
+    height: auto;
+}
+/* FINAL ----------------------------------------------- */
+
+
+/* ESTILIZAÇÃO DA LISTA DE NAVEGAÇÃO */
+.navBar-list-nav {
+    display: flex;
+}
+
+.list-nav-container {
+    display: flex;
+
+    gap: 32px;
+}
+.gp-list-nav {
+    color: black;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1980px) {}
+
+@media (max-width: 1024px) {
+    .container__navBar {
+        align-items: center;
+    }
+    .container-contacts {
+        justify-content: center;
+        padding-right: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    .container__navBar {
+        padding-right: 1.5rem;
+        height: 82px;
+    }
+    .container-contacts {
+        justify-content: center;
+        padding-right: 1;
+    }
+    .img-logo {
+        width: 9rem;
+        margin-bottom: .7rem;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    .container__navBar {
+        padding-right: 1.5rem;
+        height: 82px;
+    }
+    .container-contacts {
+        justify-content: center;
+        padding-right: 1;
+    }
+    .img-logo {
+        width: 9rem;
+        margin-bottom: .7rem;
+    }
+}
+@media (max-width: 320px) {
+    .container__navBar {
+        display: block;
+        padding-right: 1.5rem;
+        height: 82px;
+    }
+    .container-contacts {
+        justify-content: center;
+        padding-right: 4rem;
+    }
+    .img-logo {
+        width: 8rem;
+        margin-bottom: .7rem;
+    }
+}
+
+@media (max-width: 260px) {
+    .container__navBar {
+        display: block;
+        padding-right: 1.5rem;
+        height: 82px;
+    }
+    .container-contacts {
+        justify-content: center;
+        padding-right: 1;
+    }
+}

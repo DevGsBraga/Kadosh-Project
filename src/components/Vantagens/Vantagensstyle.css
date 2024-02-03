@@ -1,0 +1,170 @@
+.container__vantagens {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+/* ESTILIZAÇÃO DO SEGUNDO CONTAINER */
+.vantagens-information {
+    width: 100vw;
+    display: flex;
+    background: linear-gradient(rgba(255,241,18,1) 0%, rgba(42,85,163,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* estilização do terceiro container */
+.vantagens-descriptions {
+    display: flex;
+
+}
+
+.description-titles {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ESTILIZAÇÃO DA IMAGEM */
+.vantagens-img {
+    width: 40%;
+    padding: 0 1rem;
+}
+.img-info {
+    width: 35rem;
+    height: auto;
+}
+
+
+/* ESTILIZAÇÃO DA LISTA */
+.vantagens-descriptions {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.description-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.list-gp {
+    list-style: none;
+}
+
+.gp-Li {
+    padding-left: 2rem;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.gp-Li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-30%);
+    width: 32px; /* Ajuste a largura conforme necessário */
+    height: 16px; /* Ajuste a altura conforme necessário */
+    background-image: url(../../assets//icons/check_icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+
+
+
+
+
+/* RESPOSIVIDADE */
+@media  (min-width: 2560px) {
+
+    .img-info {
+        width: 50rem;
+    }
+    .vantagens-img {
+        padding: 0;
+    }
+}
+
+
+@media  (max-width: 1024px) {
+    .vantagens-information {
+       flex-direction: column;
+    }
+    .img-info {
+        width: 100%;
+
+    }
+    .description-titles {
+        width:100vw;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .description-list {
+        width: 100vw;
+        justify-content: center;
+    }
+    .vantagens-img {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .vantagens-information {
+       flex-direction: column;
+    }
+    .img-info {
+        width: 100%;
+    }
+    .description-titles {
+        width:100vw;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .description-list {
+        width: 100vw;
+        justify-content: center;
+    }
+    .vantagens-img {
+        width: 100%;
+        /* padding: 0; */
+    }
+}
+
+@media (max-width: 415px) {
+    .vantagens-information {
+       flex-direction: column;
+    }
+    .img-info {
+        width: 25rem;
+    }
+    .description-titles {
+        width:100vw;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .description-list {
+        width: 100vw;
+        justify-content: center;
+    }
+    .vantagens-img {
+        width: 100%;
+        padding: 0;
+    }
+}
