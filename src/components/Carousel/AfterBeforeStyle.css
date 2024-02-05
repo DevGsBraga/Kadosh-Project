@@ -1,14 +1,124 @@
 .container-AfterBefore {
     width: 100vw;
-    margin: 5rem 0 ;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    background: #042eec5d;
+    background-color: #0caada;
+}
+
+.afterBefore-associados {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Inter", "Helvetica Neue";
+}
+
+.associados-title {
+    font-size: 2.8em;
+    font-weight: bold;
+    letter-spacing: .4rem;
+}
+.associados-p {
+    font-size: 1.7em;
+}
+
+.afterBefore-titles {
+    width: 60vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
-.afterBefore-titles {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+
+/* RESPOSIVIDADE */
+
+@media (max-width: 1024px) {
+    .container-AfterBefore {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .afterBefore-associados {
+        width: 100vw;
+        text-align: center;
+
+    }
+    .afterBefore-titles {
+        width: 100vw;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-AfterBefore {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .afterBefore-associados {
+        width: 100vw;
+        text-align: center;
+
+    }
+    .afterBefore-titles {
+        width: 100vw;
+        height: 150px;
+    }
+}
+
+@media (max-width: 418px) {
+    .container-AfterBefore {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .afterBefore-associados {
+        width: 100vw;
+        text-align: center;
+
+    }
+    .afterBefore-titles {
+        width: 100vw;
+        height: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-AfterBefore {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .afterBefore-associados {
+        width: 100vw;
+        text-align: center;
+
+    }
+    .afterBefore-titles {
+        width: 100vw;
+        height: 150px;
+    }
+}
+
+@media (max-width: 260px) {
+    .container-AfterBefore {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .afterBefore-associados {
+        width: 100vw;
+        text-align: center;
+
+    }
+    .afterBefore-titles {
+        width: 100vw;
+        height: 150px;
+    }
 }

@@ -56,7 +56,13 @@
 .description-list {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.container-btn-whats {
+    display: flex;
 }
 
 .list-gp {
@@ -105,7 +111,7 @@
        flex-direction: column;
     }
     .img-info {
-        width: 100%;
+        width: 90%;
 
     }
     .description-titles {
@@ -116,10 +122,11 @@
     .description-list {
         width: 100vw;
         justify-content: center;
+        margin: 1rem 0;
     }
     .vantagens-img {
         width: 100%;
-        padding: 0;
+        padding: 0rem;
         text-align: center;
     }
 }
@@ -144,6 +151,10 @@
     .vantagens-img {
         width: 100%;
         /* padding: 0; */
+    }
+    .container-btn-whats {
+
+        padding: 1rem;
     }
 }
 

@@ -12,6 +12,13 @@ import { Link } from "react-router-dom";
 
 
 const FooterContain = () => {
+  const rolarTela = () => {
+    window.scrollTo( {
+      top: 0,
+      behavior: 'smooth'
+    } )
+  }
+
   return (
     <div className="container-footer">
       <div className="footer-redes-sociais">
@@ -34,9 +41,9 @@ const FooterContain = () => {
 
         <div className="footer-navBar">
           <ul>
-            <Link>Inicio</Link>
-            <Link>Cotação</Link>
-            <Link>Vantagens</Link>
+            <Link className="gp-list-footer" to={'/'} onClick={rolarTela}>Inicio</Link>
+            <Link className="gp-list-footer" to={'/'}>Cotação</Link>
+            <Link className="gp-list-footer" to={'/'}>Vantagens</Link>
           </ul>
 
         </div>

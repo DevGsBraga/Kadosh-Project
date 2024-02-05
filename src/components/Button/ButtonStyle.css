@@ -1,0 +1,40 @@
+.btn-whats {
+    width: 100%;
+    padding: .4rem;
+    background: #25D366;
+    font-weight: bold;
+    color: white;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    border: 2px solid white;
+    transition: background .2s ease-in-out;
+}
+.btn-whats:hover {
+    background: #1eaf53 ;
+}
+
+
+@media (max-width: 768px) {
+    .btn-whats {
+        width: 100%;
+        padding: .1rem;
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 418px) {
+    .btn-whats {
+        width: 100%;
+        padding: .1rem;
+        font-size: x-small;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .btn-whats {
+        width: 100%;
+        padding: .1rem;
+        font-size: x-small;
+    }
+}

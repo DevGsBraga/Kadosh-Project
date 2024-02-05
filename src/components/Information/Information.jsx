@@ -30,10 +30,10 @@ const Information = () => {
             gsap.fromTo(element, {
                 opacity: 0,
                 x: Eixo,
-                duration: 2,
             }, {
                 opacity: 1,
                 x: fim,
+                duration: 1,
                 scrollTrigger: {
                     trigger: inicio,
                     start: 'top center',
@@ -68,42 +68,42 @@ const Information = () => {
                 <div className='cards-styles'>
                 <img className='gp-img-cards' src={carIcon} alt="" />
                 <h4>Seu veiculo 100% protegido</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Assumenda illo doloremque hic! Temporibus repreh <br /> </p>
+                <p>Proteção Completa.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
                 <img className='gp-img-cards' src={crashIcon} alt="" />
                 <h4>Proteção contra colisão</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Assumenda illo doloremque hic! Temporibus repreh <br /> </p>
+                <p>Danos materiais ocorridos pelo associado em seu veículo e sobre terceiros.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
                 <img className='gp-img-cards' src={rouboIcon} alt="" />
                 <h4>Roubo e furto</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Assumenda illo doloremque hic! Temporibus repreh <br /> </p>
+                <p>Não conte com a sorte. Previna-se.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
                 <img className='gp-img-cards' src={monitoramentoIcon} alt="" />
                 <h4>Monitoramento 24 horas</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Assumenda illo doloremque hic! Temporibus repreh <br /> </p>
+                <p>Agilidade em caso de roubo ou furto temos o rastreamento.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
                 <img className='gp-img-cards' src={guinchoIcon} alt="" />
                 <h4>Assistência 24 horas </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Assumenda illo doloremque hic! Temporibus repreh <br /> </p>
+                <p>Reboque, socorro mecânico, pane elétrica, troca de pneus e outros.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
                 <img className='gp-img-cards' src={glassIcon} alt="" />
                 <h4>Proteção contra vidros</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Assumenda illo doloremque hic! Temporibus repreh <br /> </p>
+                <p>Troca de faróis, para-brisas, lanternas e outros periféricos.</p>
                 </div>
             </div>
         </div>

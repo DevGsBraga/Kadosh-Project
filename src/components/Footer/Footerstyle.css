@@ -32,6 +32,12 @@
     flex-direction: column;
 }
 
+.gp-list-footer {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* IFRAME */
 
 .container-iframe {

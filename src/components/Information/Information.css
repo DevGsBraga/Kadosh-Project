@@ -32,8 +32,7 @@
 
 
 .gp-cards {
-
-    padding: 44px;
+    padding: 24px;
     /* row-gap: 60px; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
@@ -62,5 +61,17 @@
 @media (min-width: 2560px) {
     .container-information {
         width: 70vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .gp-cards p {
+       width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .gp-cards p {
+       width: 80%;
     }
 }
