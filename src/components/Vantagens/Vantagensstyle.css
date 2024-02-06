@@ -12,10 +12,7 @@
 .vantagens-information {
     width: 100vw;
     display: flex;
-    background: linear-gradient(rgba(255,241,18,1) 0%, rgba(42,85,163,1) 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: rgba(42,85,163,1);
 }
 
 /* estilização do terceiro container */
@@ -35,11 +32,11 @@
 
 /* ESTILIZAÇÃO DA IMAGEM */
 .vantagens-img {
-    width: 40%;
-    padding: 0 1rem;
+    width: 50%;
+    /* padding: 0 1rem; */
 }
 .img-info {
-    width: 35rem;
+    width: 100%;
     height: auto;
 }
 

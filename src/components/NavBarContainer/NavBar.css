@@ -18,14 +18,15 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 3rem;
+    padding-right: 5rem;
     background: var(--secundary-color);
 }
 
 .contacts-list {
     text-decoration: none;
     color: white;
-    margin-left: 1rem;
+    margin-left: 3rem;
+    font-weight: bold;
 }
 
 

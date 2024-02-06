@@ -4,6 +4,11 @@ import "./NavBar.css";
 
 // IMGS
 import logoDoSite from '../../assets/logo-kadosh.png';
+import { TfiEmail } from 'react-icons/tfi';
+import { HiOutlinePhone } from 'react-icons/hi';
+
+
+
 
 import { Link } from "react-router-dom";
 import ButtonContain from "../Button/ButtonContain";
@@ -20,8 +25,8 @@ const NavBar = () => {
         <div className="container-contacts">
 
             <ul className="contacts-nav">
-                <Link className="contacts-list">E-mail</Link>
-                <Link className="contacts-list">Contatos</Link>
+                <Link className="contacts-list"><TfiEmail /> E-mail</Link>
+                <Link className="contacts-list"> <HiOutlinePhone /> Contatos</Link>
             </ul>
 
         </div>

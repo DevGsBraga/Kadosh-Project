@@ -1,0 +1,60 @@
+.container-Depoimento {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.depoimento-description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.depoimentos_cards {
+    width: 100%;
+    gap: 16px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    /* row-gap: 60px; */
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+}
+
+
+
+/* BUTTON */
+
+.btn-depoimentos {
+    margin: 1rem 0;
+}
+
+
+
+@media (max-width: 767px) {
+    .depoimentos_cards {
+      grid-template-columns: 20rem;
+    }
+
+    .description-title,
+    .depoimento-class {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
