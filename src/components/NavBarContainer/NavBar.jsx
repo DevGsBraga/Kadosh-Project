@@ -45,7 +45,7 @@ const NavBar = () => {
 
             </div>
             <div className="section-button">
-            <ButtonContain src={'#'} title={'COTAÇÃO VIA WHATSAPP'} />
+            <ButtonContain src={'https://wa.link/nbh7a5'} title={'COTAÇÃO VIA WHATSAPP'} />
 
             </div>
         </nav>

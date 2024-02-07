@@ -7,12 +7,41 @@
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    gap: 32px;
 }
+
+.container-avaliacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    letter-spacing: .2rem;
+}
+.depoimento-class {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+/* IMAGEM DE AVALIAÇÃO DO SITE */
+.img-avaliacao {
+    width: 20rem;
+}
+
+
+
 
 .depoimento-description {
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description-title {
+    letter-spacing: 5px;
 }
 
 .depoimentos_cards {
@@ -37,16 +66,50 @@
 
 
 @media (max-width: 767px) {
+    .container-Depoimento {
+        display: contents;
+    }
     .depoimentos_cards {
       grid-template-columns: 20rem;
     }
 
     .description-title,
     .depoimento-class {
+
         text-align: center;
     }
 }
 
+
+@media (max-width: 418px) {
+    .container-Depoimento {
+        display: contents;
+    }
+    .depoimentos_cards {
+      grid-template-columns: 20rem;
+    }
+
+    .description-title,
+    .depoimento-class {
+
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-Depoimento {
+        display: flex;
+    }
+    .depoimentos_cards {
+      grid-template-columns: 20rem;
+    }
+
+    .description-title,
+    .depoimento-class {
+
+        text-align: center;
+    }
+}
 
 
 

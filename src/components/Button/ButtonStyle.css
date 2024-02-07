@@ -19,6 +19,7 @@
         width: 100%;
         padding: .1rem;
         font-size: x-small;
+        text-align: center;
     }
 }
 
@@ -27,14 +28,16 @@
         width: 100%;
         padding: .1rem;
         font-size: x-small;
+        text-align: center;
     }
 }
 
 
 @media (max-width: 320px) {
     .btn-whats {
-        width: 100%;
+       
         padding: .1rem;
         font-size: x-small;
+
     }
 }

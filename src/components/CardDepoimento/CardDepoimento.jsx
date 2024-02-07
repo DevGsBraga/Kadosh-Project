@@ -5,10 +5,9 @@ import "../CardDepoimento/CardStyle.css";
 const CardDepoimento = ({coment, name}) => {
   return (
     <div className="container-Card">
-
         <span className="Card-description">{coment}</span>
         <p className="Card-name">{name}</p>
-        
+
     </div>
   )
 }

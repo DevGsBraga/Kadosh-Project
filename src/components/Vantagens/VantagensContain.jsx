@@ -51,21 +51,10 @@ const VantagensContain = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     // CONTEUDO DO BOTÃO
-    const linkParaWhatsapp = "https://whatsform.com/nicpuu";
+    const linkParaWhatsapp = "https://wa.link/nbh7a5";
     const tituloDoBotao = "COTAÇÃO VIA WHATSAPP"
+    
   return (
     <div className='container__vantagens'>
         <div className="vantagens-information" ref={animationContainerRef}>
@@ -73,7 +62,7 @@ const VantagensContain = () => {
             <div className='vantagens-img' ref={animationImgRef}>
                 <img className='img-info' src={imginfo} alt="" />
             </div>
-            
+
             <div className='vantagens-descriptions' ref={animationTitlesRef}>
                 <div className='description-titles'>
                 <span style={{fontSize: '1.2em'}}>Temos tudo que seu veiculo precisa!</span>
