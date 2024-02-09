@@ -14,6 +14,8 @@ import DepoimentosContain from '../components/Depoimentos/DepoimentosContain';
 // ANIMAÇÃO
 
 const Home = () => {
+
+
   return (
 <>
 <NavBar  />

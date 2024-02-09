@@ -56,7 +56,7 @@ const Information = () => {
     <>
 
 
-    <div className='container-information'>
+    <div className='container-information' id='protecao'>
 
         <div className='information-titles' ref={animaTitleRef}>
             <span>A proteção que o seu veículo merece</span>

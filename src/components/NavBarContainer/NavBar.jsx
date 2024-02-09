@@ -39,8 +39,8 @@ const NavBar = () => {
 {/* DIV DE LISTA DE NAVEGAÇÃO  */}
             <div className="navBar-list-nav">
                 <ul className="list-nav-container">
-                    <Link className="gp-list-nav" to="/">Inicio</Link>
-                    <Link className="gp-list-nav" to="/cotacao">Cotação</Link>
+                    <Link className="gp-list-nav" to="/" >Inicio</Link>
+                    <Link className="gp-list-nav" to="/cotacao" smooth={true} duration={500}>Cotação</Link>
                 </ul>
 
             </div>

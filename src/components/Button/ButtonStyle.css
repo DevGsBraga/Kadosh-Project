@@ -7,10 +7,11 @@
     border-radius: 1.5rem;
     text-decoration: none;
     border: 2px solid white;
-    transition: background .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .btn-whats:hover {
     background: #1eaf53 ;
+    transform: scale(1.1);
 }
 
 
@@ -35,7 +36,7 @@
 
 @media (max-width: 320px) {
     .btn-whats {
-       
+
         padding: .1rem;
         font-size: x-small;
 

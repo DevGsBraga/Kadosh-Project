@@ -1,7 +1,7 @@
 import './Vantagensstyle.css';
 
 // IMGS
-import imginfo from '../../assets/image_info.jpg';
+import imginfo from '../../assets/imgs/carro-moto.png';
 import ButtonContain from '../Button/ButtonContain';
 
 // ANIMAÇÕES
@@ -54,7 +54,7 @@ const VantagensContain = () => {
     // CONTEUDO DO BOTÃO
     const linkParaWhatsapp = "https://wa.link/nbh7a5";
     const tituloDoBotao = "COTAÇÃO VIA WHATSAPP"
-    
+
   return (
     <div className='container__vantagens'>
         <div className="vantagens-information" ref={animationContainerRef}>
