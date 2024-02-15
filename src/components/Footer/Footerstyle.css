@@ -22,6 +22,10 @@
 .footer-central {
     width: 25%;
 }
+.footer-endereco h4,
+.footer-central h4 {
+    font-weight: 600;
+}
 
 .footer-endereco {
     width: 25%;
@@ -35,9 +39,6 @@
 
 
 /* CONTAINER DA LOGO */
-
-
-
 .icons-redes-socias {
     display: flex;
     justify-content: center;
@@ -47,6 +48,49 @@
     width: 15rem;
 }
 
+@media (max-width: 1366px) {
+    .container-footer {
+        height: 450px;
+    }
+
+    .footer-img-logo,
+    .footer-seguradora,
+    .footer-endereco,
+    .footer-central {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 1rem;
+}
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container-footer {
+        height: 450px;
+    }
+    .footer-components {
+        flex-direction: column;
+    }
+    .footer-img-logo,
+    .footer-seguradora,
+    .footer-endereco,
+    .footer-central {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: .5rem 0;
+}
+}
 
 
 @media (max-width: 768px) {
@@ -73,7 +117,7 @@
 
 @media (max-width: 415px) {
     .container-footer {
-        height: 500px;
+        height: 600px;
     }
     .footer-components {
         padding: 1rem 0;

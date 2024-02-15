@@ -1,10 +1,135 @@
-.container-geral-form{
+.container__form {
     width: 100vw;
-    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
-.container-form {
-    width: 70%;
+
+.form-title {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 2rem;
+}
+
+.form__description {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form__description form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    box-shadow: 3px 3px 3px 2px rgba(128, 128, 128, 0.493);
+}
+
+
+.form__description .form-input {
+    width: 90%;
+    padding: .5rem;
+    margin: .3rem;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+.form__description input::placeholder {
+    font-family: "Inter", Helvetica, sans-serif;
+}
+
+/* BOTÃO DO FORMULARIO */
+
+.form-btn {
+    margin: 1rem 0;
+}
+
+.form-btn input {
+    width: 10rem;
+    padding: .5rem;
+    border: none;
+    border-radius: 15px;
+    background: var(--secundary-color);
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.form-btn input:hover {
+    transform: scale(1.1);
+    background: #1a5fdf;
+}
+
+
+
+
+/* RESPOSIVIDADE */
+@media (max-width: 1024px) {
+    .form-title {
+        text-align: center;
+    }
+    .form__description form {
+        width: 100%;
+    }
+    .form__description input {
+        width: 100%;
+    }
+    .form__description {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-title {
+        text-align: center;
+    }
+    .form__description form {
+        width: 100%;
+    }
+    .form__description input {
+        width: 100%;
+    }
+    .form__description {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 418px) {
+    .form-title {
+        text-align: center;
+    }
+    .form__description form {
+        width: 100%;
+    }
+    .form__description input {
+        width: 100%;
+    }
+    .form__description {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .form-title {
+        text-align: center;
+    }
+    .form__description form {
+        width: 100%;
+    }
+    .form__description input {
+        width: 100%;
+    }
+    .form__description {
+        width: 100vw;
+    }
 }

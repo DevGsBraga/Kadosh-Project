@@ -65,6 +65,22 @@
 
 
 
+/* RESPOSIVIDADE */
+
+@media (max-width: 1024px) {
+
+    .depoimentos_cards {
+      grid-template-columns: 20rem 20rem;
+    }
+
+    .description-title,
+    .depoimento-class {
+
+        text-align: center;
+    }
+}
+
+
 @media (max-width: 767px) {
     .container-Depoimento {
         display: contents;
@@ -106,9 +122,9 @@
 
     .description-title,
     .depoimento-class {
-
         text-align: center;
     }
+    
 }
 
 

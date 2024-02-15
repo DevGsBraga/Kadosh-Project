@@ -84,18 +84,18 @@
     }
     .container-contacts {
         justify-content: center;
-        padding-right: 1;
+        padding-right: 0;
     }
 }
 
 @media (max-width: 767px) {
     .container__navBar {
-        padding-right: 1.5rem;
+        padding-right: 1rem;
         height: 72px;
     }
     .container-contacts {
         justify-content: center;
-        padding-right: 1;
+        padding-right: 0;
     }
     .img-logo {
         width: 9rem;
@@ -118,7 +118,7 @@
     }
     .container-contacts {
         justify-content: center;
-        padding-right: 1;
+        padding-right: 0;
     }
     .img-logo {
         width: 9rem;
@@ -135,7 +135,7 @@
     }
     .container-contacts {
         justify-content: center;
-        padding-right: 4rem;
+        padding-right: 0;
     }
     .img-logo {
         width: 8rem;

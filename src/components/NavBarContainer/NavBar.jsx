@@ -4,8 +4,9 @@ import "./NavBar.css";
 
 // IMGS
 import logoDoSite from '../../assets/logo-kadosh.png';
-import { TfiEmail } from 'react-icons/tfi';
-import { HiOutlinePhone } from 'react-icons/hi';
+import {FaInstagram} from 'react-icons/fa';
+import {AiOutlineFacebook} from 'react-icons/ai';
+import {FaWhatsapp} from 'react-icons/fa';
 
 
 
@@ -23,12 +24,9 @@ const NavBar = () => {
   return (
     <>
         <div className="container-contacts">
-
-            <ul className="contacts-nav">
-                <Link className="contacts-list"><TfiEmail /> E-mail</Link>
-                <Link className="contacts-list"> <HiOutlinePhone /> Contatos</Link>
-            </ul>
-
+            <Link to={'https://www.instagram.com/kadoshprotecaoveicular/'} target="_blank"><FaInstagram size={'24px'} color="white" /></Link>
+            <Link to={'https://www.facebook.com/profile.php?id=100085684614120&mibextid=rS40aB7S9Ucbxw6v'} target="_blank"> <AiOutlineFacebook size={'24px'} color="white" /></Link>
+            <Link to={"https://wa.link/nbh7a5"} target="_blank"><FaWhatsapp size={'24px'} color="white" /></Link>
         </div>
         <nav className="container__navBar">
 {/* DIV DE IMAGEM */}
@@ -37,13 +35,7 @@ const NavBar = () => {
             </div>
 
 {/* DIV DE LISTA DE NAVEGAÇÃO  */}
-            <div className="navBar-list-nav">
-                <ul className="list-nav-container">
-                    <Link className="gp-list-nav" to="/" >Inicio</Link>
-                    <Link className="gp-list-nav" to="/cotacao" smooth={true} duration={500}>Cotação</Link>
-                </ul>
 
-            </div>
             <div className="section-button">
             <ButtonContain src={'https://wa.link/nbh7a5'} title={'COTAÇÃO VIA WHATSAPP'} />
 

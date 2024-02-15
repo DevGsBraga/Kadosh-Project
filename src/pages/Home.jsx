@@ -8,23 +8,29 @@ import FooterContain from '../components/Footer/FooterContain';
 import VantagensContain from '../components/Vantagens/VantagensContain';
 import CarouselAftBefore from '../components/Carousel/CarouselAftBefore';
 import DepoimentosContain from '../components/Depoimentos/DepoimentosContain';
+import FormContain from '../components/CotacaoComponents/Form/FormContain'
+import {  animateScroll as scroll } from 'react-scroll';
 
 // import AssociadosContain from '../components/Associados/AssociadosContain';
 
 // ANIMAÇÃO
 
 const Home = () => {
+  const scrollToForm = () => {
+    scroll.scrollTo(3800, { smooth: true }); // Ajuste a posição conforme necessário
+  };
 
 
   return (
 <>
 <NavBar  />
-<CarouselContainer />
+<CarouselContainer scrollToForm={scrollToForm} />
 <Information  />
 <VantagensContain />
 {/* <AssociadosContain /> */}
 <DepoimentosContain />
 <CarouselAftBefore />
+<FormContain />
 <FooterContain />
 
 

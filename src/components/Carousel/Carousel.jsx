@@ -9,7 +9,8 @@ import bannerPrincipal from '../../assets/imgs/Banners/banner-kadosh-01.jpg';
 import bannerSecundary from '../../assets/imgs/Banners/banner-kadosh-03.jpg';
 
 
-const CarouselContainer = () => {
+// eslint-disable-next-line react/prop-types
+const CarouselContainer = ({ scrollToForm }) => {
   return (
     <>
 
@@ -25,16 +26,15 @@ const CarouselContainer = () => {
             color:'white',
             textDecoration:'none',
             fontWeight:'bold',
-            
-                  }} to={'/cotacao'}>SOLICITE UMA COTAÇÃO GRATUITA</Link>
+
+                  }} onClick={scrollToForm} to="#formContain" smooth={true} duration={300} >SOLICITE UMA COTAÇÃO GRATUITA</Link>
 
       </div>
       </div>
       <div className="carousel-item" data-bs-interval="3000">
         <img src={bannerSecundary} className="d-block w-100"  alt="..." />
         <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+
       </div>
       </div>
        {/* <div className="carousel-item" data-bs-interval="3000">
