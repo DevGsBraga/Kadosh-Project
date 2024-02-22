@@ -5,8 +5,8 @@
 import {Link} from 'react-router-dom';
 
 // IMGs
-import bannerPrincipal from '../../assets/imgs/Banners/banner-kadosh-01.jpg';
-import bannerSecundary from '../../assets/imgs/Banners/banner-kadosh-03.jpg';
+// import bannerPrincipal from '../../assets/imgs/Banners/banner-kadosh-01.jpg';
+// import bannerSecundary from '../../assets/imgs/Banners/banner-kadosh-03.jpg';
 
 
 // eslint-disable-next-line react/prop-types
@@ -17,7 +17,7 @@ const CarouselContainer = ({ scrollToForm }) => {
     <div id="carouselExampleInterval"  className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-inner">
       <div className="carousel-item active" data-bs-interval="3000">
-        <img src={bannerPrincipal} className="d-block w-100" alt="..."  />
+        <img src="https://i.ibb.co/rdqRbJ8/1-01.jpg" className="d-block w-100" alt="Banner primário do site"  />
         <div className="carousel-caption d-none d-md-block">
           <Link style={{
             background: 'blue',
@@ -32,7 +32,7 @@ const CarouselContainer = ({ scrollToForm }) => {
       </div>
       </div>
       <div className="carousel-item" data-bs-interval="3000">
-        <img src={bannerSecundary} className="d-block w-100"  alt="..." />
+        <img src="https://i.ibb.co/89nrDNS/Prancheta-2.jpg" className="d-block w-100"  alt="Banner secundário do site" />
         <div className="carousel-caption d-none d-md-block">
 
       </div>
