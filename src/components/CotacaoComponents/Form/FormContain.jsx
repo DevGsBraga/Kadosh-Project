@@ -4,8 +4,10 @@ import "./Formstyle.css"; // CSS
 import { useState, useEffect } from "react";
 import gsap from "gsap";
 gsap.registerPlugin(ScrollTrigger);
-import emailjs from '@emailjs/browser';
 import { ScrollTrigger } from "gsap/all";
+
+import Cookies from "js-cookie";
+import emailjs from '@emailjs/browser';
 
 
 
@@ -13,10 +15,10 @@ import { ScrollTrigger } from "gsap/all";
 
 const FormContain = () => {
   // VALIDAÇÃO DO FORMULÁRIO
-  const [name, setName] = useState('');
-  const [contato, setContato] = useState('');
-  const [email, setEmail] = useState('');
-  const [cidade, setCidade] = useState('');
+  const [name, setName] = useState(Cookies.get('name') || '');
+  const [contato, setContato] = useState(Cookies.get('contato') || '');
+  const [email, setEmail] = useState(Cookies.get('email') || '');
+  const [cidade, setCidade] = useState(Cookies.get('cidade') || '');
 
   function enviarEmail(event){
     event.preventDefault(); // IMPEDE O RELOAD DA PÁGINA
@@ -40,6 +42,11 @@ const FormContain = () => {
     setEmail('')
     setCidade('')
   }
+
+    Cookies.set('name', name, { expires: 7 }); // Expire em 7 dias
+    Cookies.set('contato', contato, { expires: 7 });
+    Cookies.set('email', email, { expires: 7 });
+    Cookies.set('cidade', cidade, { expires: 7 });
 
 
   // ANIMAÇÃO DO FORMULÁRIO

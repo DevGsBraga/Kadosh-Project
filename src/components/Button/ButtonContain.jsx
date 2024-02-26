@@ -7,7 +7,7 @@ import {FaWhatsapp} from 'react-icons/fa';
 const ButtonContain = ( {src, title} ) => {
   return (
     <div className='container-btn-whats'>
-        <Link className='btn-whats' to={src}><FaWhatsapp size={"32px"} /> {title} </Link>
+        <Link className='btn-whats' to={src} target='_blank'><FaWhatsapp size={"32px"} /> {title} </Link>
     </div>
   )
 }

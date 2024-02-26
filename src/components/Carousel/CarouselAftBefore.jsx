@@ -56,7 +56,7 @@ const CarouselAftBefore = () => {
           <h1 className="associados-title" ref={animationTitlesRef}>Associados <b style={{color:"#2A55A3"}}>100%</b> satisfeitos!</h1>
           <p className="associados-p" ref={animationTextRef}>Com a <b style={{color: "#fff112"}}>Kadosh</b> você pode contar com um atendimento especializado!</p>
           <div ref={animationButtonRef}>
-          <ButtonContain src="#" title="COTAÇÃO VIA WHATSAPP"  />
+          <ButtonContain src="https://wa.link/si2s7a" title="COTAÇÃO VIA WHATSAPP"  />
           </div>
         </div>
 

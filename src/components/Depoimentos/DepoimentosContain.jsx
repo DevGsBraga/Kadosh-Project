@@ -118,7 +118,7 @@ const DepoimentosContain = () => {
       </div>
 
       <div className="btn-depoimentos">
-        <ButtonContain src={"https://wa.link/nbh7a5"} title={"SOLICITE UMA COTAÇÃO"} />
+        <ButtonContain src={"https://wa.link/si2s7a"} title={"SOLICITE UMA COTAÇÃO"} />
       </div>
     </div>
   );
