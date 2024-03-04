@@ -1,0 +1,18 @@
+.container-whatsapp {
+    position: fixed;
+    bottom: .5rem;
+    right: 1rem;
+    z-index: 22;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(2, 235, 2);
+    transition: all .3s ease-in-out;
+}
+
+.container-whatsapp:hover {
+    transform: scale(1.2);
+}

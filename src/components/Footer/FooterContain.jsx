@@ -49,6 +49,9 @@ const FooterContain = () => {
         <p>A <b style={{color:'#2A55A3'}}>KADOSH</b> não é uma seguradora. Oferecemos através do associativismo o serviço de proteção automotiva.</p>
       </div>
       </div>
+
+
+
       </div>
 
   )

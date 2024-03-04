@@ -8,7 +8,8 @@ import FooterContain from '../components/Footer/FooterContain';
 import VantagensContain from '../components/Vantagens/VantagensContain';
 import CarouselAftBefore from '../components/Carousel/CarouselAftBefore';
 import DepoimentosContain from '../components/Depoimentos/DepoimentosContain';
-import FormContain from '../components/CotacaoComponents/Form/FormContain'
+import FormContain from '../components/CotacaoComponents/Form/FormContain';
+import Whatsapp from '../components/Whatsapp/Whatsapp';
 import {  animateScroll as scroll } from 'react-scroll';
 
 // import AssociadosContain from '../components/Associados/AssociadosContain';
@@ -23,6 +24,7 @@ const Home = () => {
 
   return (
 <>
+<Whatsapp />
 <NavBar  />
 <CarouselContainer scrollToForm={scrollToForm} />
 <Information  />

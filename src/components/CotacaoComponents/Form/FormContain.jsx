@@ -91,7 +91,7 @@ useEffect(() => {
     <div className="container__form">
       <div className="form-title">
       <span className="title-span">TRABALHANDO PARA VOCÊ COM RAPIDEZ E EFICIÊNCIA.</span>
-      <h3 className="title-h3"> <b style={{color: '#2A55A3'}}>Faça agora sua cotação gratuita</b> e descubra as melhores opções disponíveis para você!</h3>
+      <h3 className="title-h3"> <b>Faça agora sua cotação gratuita</b> e descubra as melhores opções disponíveis para você!</h3>
       <p className="title-p">Tornamos a proteção veicular simples e acessível.</p>
       </div>
 
