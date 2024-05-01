@@ -36,8 +36,9 @@ const Information = () => {
                 duration: 1,
                 scrollTrigger: {
                     trigger: inicio,
-                    start: 'top center',
+                    start: 'top 60%',
                     end: 'bottom center'
+
                 }
             })
         }
