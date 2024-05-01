@@ -66,43 +66,43 @@ const Information = () => {
         <div className="information-cards" ref={animaVantagensRef}>
             <div className='gp-cards '>
                 <div className='cards-styles'>
-                <img className='gp-img-cards' src={carIcon} alt="" />
+                <img className='gp-img-cards' src={carIcon} alt="Imagem de um veiculo e um simbolo de proteção" />
                 <h4>Seu veiculo 100% protegido</h4>
                 <p>Proteção Completa.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
-                <img className='gp-img-cards' src={crashIcon} alt="" />
+                <img className='gp-img-cards' src={crashIcon} alt="Imagem de dois veiculos colidindo, simulando um acidente de trânsito" />
                 <h4>Proteção contra colisão</h4>
                 <p>Danos materiais ocorridos pelo associado em seu veículo e sobre terceiros.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
-                <img className='gp-img-cards' src={rouboIcon} alt="" />
+                <img className='gp-img-cards' src={rouboIcon} alt="Imagem de um homem mascarado e um veiculo, simulando um roubo ou furto" />
                 <h4>Roubo e furto</h4>
                 <p>Não conte com a sorte. Previna-se.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
-                <img className='gp-img-cards' src={monitoramentoIcon} alt="" />
+                <img className='gp-img-cards' src={monitoramentoIcon} alt="Imagem de uma localização, simulando um monitoramento em tempo real" />
                 <h4>Monitoramento 24 horas</h4>
                 <p>Agilidade em caso de roubo ou furto temos o rastreamento.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
-                <img className='gp-img-cards' src={guinchoIcon} alt="" />
+                <img className='gp-img-cards' src={guinchoIcon} alt="Imagem de um caminhão tipo reboque com um veiculo em cima, simulando uma assistência de guincho" />
                 <h4>Assistência 24 horas </h4>
                 <p>Reboque, socorro mecânico, pane elétrica, troca de pneus e outros.</p>
                 </div>
             </div>
             <div className='gp-cards'>
                 <div className="cards-styles">
-                <img className='gp-img-cards' src={glassIcon} alt="" />
-                <h4>Proteção contra vidros</h4>
+                <img className='gp-img-cards' src={glassIcon} alt="Imagem de uma porta de veiculo destacando o vidro, enfatizando a proteção para vidros" />
+                <h4>Proteção para vidros</h4>
                 <p>Troca de faróis, para-brisas, lanternas e outros periféricos.</p>
                 </div>
             </div>

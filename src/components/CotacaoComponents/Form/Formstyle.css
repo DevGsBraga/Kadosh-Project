@@ -35,6 +35,12 @@
 }
 
 
+/* ESTILIZA A COR DO TEXTO DE SIMULAÇÃO DO FORMULÁRIO */
+.bold-description-form {
+    color: var(--secundary-color);
+}
+
+
 .form__description .form-input {
     width: 90%;
     padding: .5rem;

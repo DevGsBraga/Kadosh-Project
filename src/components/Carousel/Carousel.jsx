@@ -17,7 +17,7 @@ const CarouselContainer = ({ scrollToForm }) => {
     <div id="carouselExampleInterval"  className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-inner">
       <div className="carousel-item active" data-bs-interval="3000">
-        <img src={bannerPrincipal} className="d-block w-100" alt="Banner primário do site"  />
+        <img src={bannerPrincipal} className="d-block w-100" alt="Banner primário do site em amarelo, com um botão de cotação"  />
         <div className="carousel-caption d-none d-md-block">
           <Link style={{
             background: 'blue',
@@ -32,7 +32,7 @@ const CarouselContainer = ({ scrollToForm }) => {
       </div>
       </div>
       <div className="carousel-item" data-bs-interval="3000">
-        <img src={bannerSecundary} className="d-block w-100"  alt="Banner secundário do site" />
+        <img src={bannerSecundary} className="d-block w-100"  alt="Banner secundário do site em azul, com um botão de cotação" />
         <div className="carousel-caption d-none d-md-block">
 
       </div>

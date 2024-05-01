@@ -60,7 +60,7 @@ const VantagensContain = () => {
         <div className="vantagens-information" ref={animationContainerRef}>
 
             <div className='vantagens-img' ref={animationImgRef}>
-                <img className='img-info' src={imginfo} alt="" />
+                <img className='img-info' src={imginfo} alt="Imagem sobre as vantagens oferecidas, do lado esquerdo dois veiculos e do lado direito as vantagens" />
             </div>
 
             <div className='vantagens-descriptions' ref={animationTitlesRef}>
@@ -77,7 +77,7 @@ const VantagensContain = () => {
                         <li className='gp-Li'>REBOQUE 24 HORAS</li>
                         <li className='gp-Li'>OFICINAS REFERENCIADAS</li>
                         <li className='gp-Li'>FENÔMENOS NATURAIS</li>
-                        <li className='gp-Li'>COBERTURA PARA VIDROS</li>
+                        <li className='gp-Li'>PROTEÇÃO PARA VIDROS</li>
                         <li className='gp-Li'>VEÍCULO RASTREADO</li>
                         <li className='gp-Li'>INCÊNDIO</li>
                     </ul>

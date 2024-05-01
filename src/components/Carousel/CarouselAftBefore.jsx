@@ -86,14 +86,14 @@ const CarouselAftBefore = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="1000">
-                <img src={img1} className="d-block w-100" alt="..." />
+                <img src={img1} className="d-block w-100" alt="Imagem de veiculo mostrando o antes e depois" />
               </div>
               <div className="carousel-item" data-bs-interval="1000">
-                <img src={img2} className="d-block w-100" alt="..." />
+                <img src={img2} className="d-block w-100" alt="Imagem de veiculo mostrando o antes e depois" />
 
               </div>
               <div className="carousel-item" data-bs-interval="1000">
-                <img src={img3} className="d-block w-100" alt="..." />
+                <img src={img3} className="d-block w-100" alt="Imagem em amarelo com veiculos como destaque" />
 
               </div>
             </div>
