@@ -4,11 +4,14 @@ import logoKadosh from '../../assets/logo-kadosh.png';
 
 
 
+
+
 // ICONS
 import {FaInstagram} from 'react-icons/fa';
 import {AiOutlineFacebook} from 'react-icons/ai';
 import {FaWhatsapp} from 'react-icons/fa';
 import { Link } from "react-router-dom";
+import setaInicio from '../../assets/Btn-Inicio/seta-inicio.gif'
 
 
 const FooterContain = () => {
@@ -21,6 +24,7 @@ const FooterContain = () => {
 
   return (
     <div className="container-footer">
+      <Link className="btn-inicio" to={'/'} onClick={rolarTela}> <img src={setaInicio} alt="Seta para voltar ao inicio do site" /> </Link>
 
       <div className="footer-components">
         <div className="footer-img-logo">
@@ -49,6 +53,7 @@ const FooterContain = () => {
         <p>A <b style={{color:'#2A55A3'}}>KADOSH</b> não é uma seguradora. Oferecemos através do associativismo o serviço de proteção automotiva.</p>
       </div>
       </div>
+
 
 
 
