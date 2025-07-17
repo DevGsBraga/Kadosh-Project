@@ -5,8 +5,8 @@
 import {Link} from 'react-router-dom';
 
 // IMGs
-import bannerPrincipal from '../../assets/imgs/Banners/banner-principal.svg';
-import bannerSecundary from '../../assets/imgs/Banners/banner-secundario.svg';
+import bannerPrincipal from '../../assets/imgs/Banners/banner-principal.jpg';
+import bannerSecundary from '../../assets/imgs/Banners/banner-secundario.jpg';
 
 
 // eslint-disable-next-line react/prop-types
