@@ -52,7 +52,7 @@ const VantagensContain = () => {
 
 
     // CONTEUDO DO BOTÃO
-    const linkParaWhatsapp = "https://wa.link/nbh7a5";
+    const linkParaWhatsapp = "https://w.app/e9w6m4";
     const tituloDoBotao = "COTAÇÃO VIA WHATSAPP"
 
   return (

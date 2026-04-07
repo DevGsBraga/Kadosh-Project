@@ -34,7 +34,7 @@ const FooterContain = () => {
 
               <Link to={"https://www.facebook.com/profile.php?id=100085684614120&mibextid=rS40aB7S9Ucbxw6v"} target="_blank">
                 <AiOutlineFacebook size={'32px'} /></Link>
-              <Link to={"https://wa.link/nbh7a5"} target="_blank"><FaWhatsapp size={'32px'} /></Link>
+              <Link to={"https://w.app/e9w6m4"} target="_blank"><FaWhatsapp size={'32px'} /></Link>
           </div>
         </div>
 
